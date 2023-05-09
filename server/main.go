@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os"
 	"waysbooks/database"
 	"waysbooks/pkg/mysql"
 	"waysbooks/routes"
@@ -31,8 +32,8 @@ func main() {
 
 	e.Static("/uploads", "./uploads")
 
-	// PORT := os.Getenv("PORT")
-	PORT := "5000"
+	PORT := os.Getenv("PORT")
+	// PORT := "5000"
 	e.Logger.Fatal(e.Start("localhost:" + PORT))
 	// e.Logger.Fatal(e.Start(":" + PORT))
 }
