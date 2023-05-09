@@ -1,5 +1,5 @@
 const midtransConfig = {
-    clientKey: "SB-Mid-client-jW5VmQ-pz812GPa7",
+    clientKey: "SB-Mid-client-sgHwrkycrVZb3ZNm",
   };
   
   export default midtransConfig;
